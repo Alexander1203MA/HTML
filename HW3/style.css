@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Gilroy;
+  font-weight: bold;
+  src: url(../HW3/font/Gilroy-Bold.ttf);
+}
+
+@font-face {
+  font-family: Gilroy;
+  font-weight: normal;
+  src: url(../HW3/font/Gilroy-Medium.ttf);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+body {
+  font: 15px Gulroy;
+  font-family: "Gilroy";
+  color: #ffffff;
+}
+
+.header {
+  padding: 40px 0;
+  margin-bottom: 21px;
+}
+
+.menu_container {
+  display: flex;
+  justify-content: right;
+}
+
+.menu-bar1 {
+  font: "Gilroy-SemiBolt", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #f25822;
+}
+
+.menu-bar {
+  font: "Gilroy-SemiBolt", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #000000;
+}
+
+.main {
+  margin-bottom: 53px;
+}
+
+.content_container {
+  max-width: 1274px;
+  margin: 0 auto;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top_content {
+  max-width: 589px;
+}
+
+.Home-title {
+  font-family: "Gilroy", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  color: #000000;
+  margin-bottom: 26px;
+}
+
+.title-text {
+  font-family: "Gilroy-Medium", cursive;
+  font-weight: 400;
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 39px;
+
+}
+
+.content-box {
+    display: flex;
+    gap: 30px;
+}
+
+.start-button {
+  border-radius: 50px;
+  width: 140px;
+  height: 50px;
+  box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+  background: #f25822;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+}
+
+.watch-button {
+  font-weight: 400;
+  font-size: 15px;
+  color: #aaa;
+  background-color: #fff;
+  font: "Gilroy-SemiBolt",bold;
+}
+
+.content_image {
+}
+
+.footer {
+  margin-bottom: 47px;
+}
+
+.log_container {
+    display: flex;
+    justify-content: space-between;
+}
